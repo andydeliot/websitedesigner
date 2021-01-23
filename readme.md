@@ -10,11 +10,10 @@ Les applications doivent se trouver dans le dossier applications.
 Elles sont ajoutés à installed_apps automatiquement.
 
 
-Les environnements virtuels, c'est de la merde.
-Installer Scipy en dehors d'un environnement virtuel,
-et vous constaterez que votre environnement virtuel possède quand même scipy.
-(j'ai fait le teste)
-Donc ça sert à rien.
+Je n'ai pas vraiment compris comment utiliser les environnements virtuels.
+En installant Scipy en dehors d'un environnement virtuel,
+j'ai constaté que mon environnement virtuel possédé quand même scipy.
+(j'ai fait le teste) donc c'est chelou et je fais sans.
 
 ------------------------------------
 Étapes pour commencer à travailler :
@@ -47,7 +46,11 @@ Vous tomberez normalement sur une page web clair et épurée : bravo tout foncti
 - Taper : git commit -m "Ajoutez un message ici"
 A partir de maintenant, vous pouvez commencer à travailler sans souci.
 
-
+5) Envoyer son site web sur git.
+- Créer un nouveau répertoire sur https://github.com
+- Ouvrir un cmd au dessus de push_github.sh.
+- Glisser puis exécuter le fichier init.sh dans le cmd.
+- Remplissez les champs correspondants.
 
 
 
