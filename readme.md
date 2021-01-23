@@ -43,6 +43,7 @@ Vous tomberez normalement sur une page web clair et épurée : bravo tout foncti
 - Ouvrir un cmd au dessus du dossier .git.
 - Taper : git status
 - Taper : git add --all
+- Taper : git status pour vérifier que les fichiers ont bien été prit en compte.
 - Taper : git commit -m "Ajoutez un message ici"
 A partir de maintenant, vous pouvez commencer à travailler sans souci.
 
