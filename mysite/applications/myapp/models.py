@@ -18,7 +18,7 @@ class MyModel(models.Model):
     my_char = models.CharField(max_length=200)
     my_text = models.TextField()
     my_date = models.DateTimeField(default=timezone.now)
-    my_int = models.IntegerField()
+    my_int = models.IntegerField(defaut=0)
 
     def save_me(self):
         self.save()
